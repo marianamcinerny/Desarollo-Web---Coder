@@ -307,6 +307,7 @@ footer .media a i:hover {
     .hero {
         height: 400px;
     }
+
     .hero h2 {
         font-weight: 200;
         font-size: 40px;
@@ -500,6 +501,10 @@ footer .media a i:hover {
 .formulario h1 {
     font-weight: 10;
     font-size: 30px;
+}
+
+.formulario form div select option {
+    color: black;
 }
 
 
@@ -765,6 +770,8 @@ footer .media a i:hover {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+
+    width: 90%;
 }
 
 .logoshop img {
