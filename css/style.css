@@ -130,11 +130,6 @@ footer .media a i:hover {
     align-items: flex-end;
 }
 
-/*footer img {
-    width: 40px;
-    height: 40px;
-}*/
-
 .f1 p {
     color: white;
     margin: 0 10px 10px 0;
@@ -144,6 +139,8 @@ footer .media a i:hover {
     width: 140px;
     height: 70px;
 }
+
+
 
 /*!---- MEDIA QUERY FOOTER ----!*/
 @media screen and (max-width: 790px) {
@@ -177,6 +174,8 @@ footer .media a i:hover {
         font-size: 20px;
     }
 }
+
+
 
 
 
@@ -288,6 +287,8 @@ footer .media a i:hover {
     grid-area: span 2;
 }
 
+
+
 /*!---- MEDIA QUERY INDEX ----!*/
 
 @media screen and (max-width: 1100px) {
@@ -391,6 +392,10 @@ footer .media a i:hover {
         font-size: 14px;
     }
 }
+
+
+
+
 
 /*----DRIVERS----*/
 .drivers{
@@ -497,6 +502,8 @@ footer .media a i:hover {
     font-size: 30px;
 }
 
+
+
 /*!---- MEDIA QUERY DRIVERS ----!*/
 @media screen and (max-width: 640px) {
     .formulario {
@@ -593,6 +600,8 @@ footer .media a i:hover {
     height: 129px;
 }
 
+
+
 /*!---- MEDIA QUERY TEAMS ----!*/
 @media screen and (max-width: 555px) {
     .tarjeta {
@@ -635,8 +644,6 @@ footer .media a i:hover {
         height: 94.90px;
     }
 }
-    
-
 
 
 
@@ -747,6 +754,9 @@ footer .media a i:hover {
 }
 
 
+
+
+
 /*----SHOP----*/
 .logoshop ul{
     display: flex;
@@ -803,7 +813,6 @@ footer .media a i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .products .card .product div a {
@@ -834,6 +843,7 @@ footer .media a i:hover {
 }
 
 
+
 /*!---- MEDIA QUERY SHOP ----!*/
 @media screen and (max-width: 700px) {
     .logoshop img {
@@ -858,12 +868,6 @@ footer .media a i:hover {
         padding-top: 50px;
     }
 }
-
-
-
-
-
-
 
 
 
@@ -903,6 +907,8 @@ main section h2 {
     font-weight: 30;
     font-size: 25px;
 }
+
+
 
 /*!---- MEDIA QUERY TITLES ----!*/
 @media screen and (max-width: 640px) {
@@ -948,19 +954,28 @@ main section h2 {
 
 
 
+
 /*----SUBIR----*/
-.fixed img{
-    width: 50px;
-    height: 50px;
+.fixed a i{
+    font-size: 30px;
+    color: black;
     position: fixed;
     bottom: 35px;
     right: 30px;
 }
 
+.fixed a i:hover{
+    color:#e10600;
+}
+
+
+
+/*!---- MEDIA QUERY SUBIR ----!*/
 @media screen and (max-width: 670px) {
-    .fixed img{
-        width: 20px;
-        height: 20px;
+    .fixed a i{
+        font-size: 20px;
+        bottom: 10px;
+        right: 10px;
     }
 }
 
