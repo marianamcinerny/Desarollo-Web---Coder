@@ -275,7 +275,8 @@ footer .media a i:hover {
     font-weight: 10;
     font-size: 15px;
     position: absolute;
-    bottom: 0;
+    bottom: -8px;
+    padding: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.322);
     width: 100%;
@@ -493,6 +494,7 @@ footer .media a i:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .row {
@@ -518,6 +520,7 @@ footer .media a i:hover {
 }
 
 
+
 /*!---- MEDIA QUERY DRIVERS ----!*/
 @media screen and (max-width: 640px) {
     .formulario {
@@ -533,6 +536,10 @@ footer .media a i:hover {
     label.form-label {
         font-size: 15px;
         font-weight: 10;
+    }
+
+    .row {
+        margin: 0 30px 0 30px;
     }
 }
 
@@ -597,25 +604,6 @@ footer .media a i:hover {
     width: 200px;
 }
 
-/*.tarjeta .listing-items .team-drivers { 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 500px;
-}
-
-.tarjeta .listing-items .team-drivers .driver .driver-info {
-    display: block;
-    unicode-bidi: isolate;
-    margin-bottom: 10px;
-}
-
-.tarjeta .listing-items .team-drivers .driver .driver-info p{
-    margin-bottom: 0px;
-    width: auto;
-}*/
-
 .tarjeta .listing-items .team-drivers {
     display: flex;
     flex-direction: row;
@@ -634,7 +622,6 @@ footer .media a i:hover {
     margin-bottom: 10px;
 }
 
-
 .tarjeta .listing-items .team-drivers .driver .driver-info .last-name {
     margin-left: 5px;
 }
@@ -643,7 +630,6 @@ footer .media a i:hover {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
     height: 160px;
 }
 
@@ -939,11 +925,6 @@ footer .media a i:hover {
 
 
 
-
-
-
-
-
 /*----TITLES----*/
 .titulos {
     display: flex;
@@ -1044,6 +1025,7 @@ main section h2 {
         right: 10px;
     }
 }
+
 
 
 
