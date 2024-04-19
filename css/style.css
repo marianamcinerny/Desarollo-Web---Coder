@@ -67,9 +67,7 @@ header img {
 }
 
 @media screen and (max-width: 550px) {
-    header {
-        position: static;
-    }
+    
     header nav ul {
         flex-direction: column;
         margin: 0;
@@ -495,7 +493,10 @@ footer .media a i:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.row {
+    margin: 0 100px 0 100px;
 }
 
 .formulario h1 {
@@ -507,6 +508,15 @@ footer .media a i:hover {
     color: black;
 }
 
+.col-12 button{
+    background-color: black;
+    border: none;
+}
+
+.col-12 button:hover {
+    background-color: #e10600;
+}
+>>>>>>> mi-rama
 
 
 /*!---- MEDIA QUERY DRIVERS ----!*/
@@ -519,6 +529,11 @@ footer .media a i:hover {
     .formulario h1 {
         font-weight: 10;
         font-size: 20px;
+    }
+    
+    label.form-label {
+        font-size: 15px;
+        font-weight: 10;
     }
 }
 
@@ -575,7 +590,15 @@ footer .media a i:hover {
     margin-right: 20px;
 }
 
-.tarjeta .listing-items .team-drivers {
+.tarjeta .listing-items .team-drivers .driver {
+    border-width: 0 1px 1px 0;
+    border-radius: 0  0 10px 0;
+    border-color: gray;
+    border-style: solid;
+    width: 200px;
+}
+
+/*.tarjeta .listing-items .team-drivers { 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -583,13 +606,38 @@ footer .media a i:hover {
     width: 500px;
 }
 
+.tarjeta .listing-items .team-drivers .driver .driver-info {
+    display: block;
+    unicode-bidi: isolate;
+    margin-bottom: 10px;
+}
+
+.tarjeta .listing-items .team-drivers .driver .driver-info p{
+    margin-bottom: 0px;
+    width: auto;
+}*/
+
+.tarjeta .listing-items .team-drivers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .tarjeta .listing-items .team-drivers .driver {
-    border-width: 0 1px 1px 0;
-    border-radius: 0  0 10px 0;
-    border-color: gray;
-    border-style: solid;
-    
-    width: 150px;
+    width: 200px;
+}
+
+.tarjeta .listing-items .team-drivers .driver .driver-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.tarjeta .listing-items .team-drivers .driver .driver-info .last-name {
+    margin-left: 5px;
 }
 
 .tarjeta .listing-items .img-team-car {
@@ -640,6 +688,18 @@ footer .media a i:hover {
         width: 130px;
     }
     
+    .tarjeta .listing-items .team-drivers .driver .driver-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+
+    .tarjeta .listing-items .team-drivers .driver .driver-info .last-name {
+        margin-left: 0px;
+    }
+
     .tarjeta .listing-items .img-team-car {
         height: 100px;
     }
@@ -993,4 +1053,7 @@ main section h2 {
 body {
     font-family: "Bakbak One", sans-serif;
     font-style: normal;
+}
+p {
+    margin: 0;
 }
