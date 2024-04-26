@@ -924,6 +924,10 @@ footer .media a i{
         width: 55px;
         height: 55px;
     }
+
+    .products section h3 {
+        padding-top: 70px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -936,10 +940,6 @@ footer .media a i{
     .logoshop img {
         width: 40px;
         height: 40px;
-    }
-
-    .products section h3 {
-        padding-top: 50px;
     }
 }
 
@@ -1029,8 +1029,11 @@ main section h2 {
     font-size: 30px;
     color: black;
     position: fixed;
-    bottom: 35px;
-    right: 30px;
+    bottom: 30px;
+    right: 10px;
+    padding: 0 5px 0 5px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .fixed a i:hover{
@@ -1043,8 +1046,6 @@ main section h2 {
 @media screen and (max-width: 670px) {
     .fixed a i{
         font-size: 20px;
-        bottom: 10px;
-        right: 10px;
     }
 }
 
