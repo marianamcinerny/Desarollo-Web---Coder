@@ -183,10 +183,9 @@ footer .media a i{
     background-image: url(../img/banner.jpeg);
     width: 100%;
     height: 500px;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,6 +301,10 @@ footer .media a i{
 }
 
 @media screen and (max-width: 920px) {
+    .hero {
+        height: 400px;
+    }
+
     .hero h2 {
         font-weight: 200;
         font-size: 40px;
@@ -319,6 +322,10 @@ footer .media a i{
 }
 
 @media screen and (max-width: 740px) {
+    .hero {
+        height: 300px;
+    }
+
     .hero h2 {
         font-weight: 100;
         font-size: 30px;
@@ -357,6 +364,10 @@ footer .media a i{
 }
 
 @media screen and (max-width: 555px) {
+    .hero {
+        height: 250px;
+    }
+
     .hero h2 {
         font-weight: 50;
         font-size: 20px;
@@ -637,7 +648,7 @@ footer .media a i{
 
 
 /*!---- MEDIA QUERY TEAMS ----!*/
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 1080px) {
     .tarjeta {
         width: 340px;
         height: auto;
