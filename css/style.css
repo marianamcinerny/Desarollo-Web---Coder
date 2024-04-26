@@ -185,7 +185,7 @@ footer .media a i{
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -292,10 +292,6 @@ footer .media a i{
     width: 100%;
 }
 
-.fangiobgp {
-    grid-area: span 2;
-}
-
 
 
 /*!---- MEDIA QUERY INDEX ----!*/
@@ -306,10 +302,6 @@ footer .media a i{
 }
 
 @media screen and (max-width: 920px) {
-    .hero {
-        height: 400px;
-    }
-
     .hero h2 {
         font-weight: 200;
         font-size: 40px;
@@ -327,10 +319,6 @@ footer .media a i{
 }
 
 @media screen and (max-width: 740px) {
-    .hero {
-        height: 300px;
-    }
-
     .hero h2 {
         font-weight: 100;
         font-size: 30px;
@@ -368,12 +356,7 @@ footer .media a i{
     }
 }
 
-
 @media screen and (max-width: 555px) {
-    .hero {
-        height: 300px;
-    }
-
     .hero h2 {
         font-weight: 50;
         font-size: 20px;
@@ -405,10 +388,6 @@ footer .media a i{
 }
 
 @media screen and (max-width: 375px) {
-    .hero {
-        height: 250px;
-    }
-
     .hero h2 {
         font-weight: 30;
         font-size: 14px;
@@ -437,7 +416,6 @@ footer .media a i{
     border-style: solid;
     padding: 10px 10px 0 0;
     margin: 30px 10px 0 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -452,7 +430,6 @@ footer .media a i{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
 }
@@ -483,7 +460,6 @@ footer .media a i{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
     margin-top: 10px;
 }
 
@@ -583,7 +559,6 @@ footer .media a i{
     border-radius: 0 10px 0 0;
     border-color: black;
     border-style: solid;
-
     width: 500px;
     height: auto;
     padding: 10px 10px 0 0;
@@ -601,7 +576,6 @@ footer .media a i{
     align-items: center;
     width: 500px;
     margin-bottom: 20px;
-
     border-width: 0 0 1px 0;
     border-color: gray;
     border-style: solid;
@@ -733,14 +707,12 @@ footer .media a i{
 .schedule .container-schedule {
     width: 350px;
     height: auto;
-
     border-width: 2px 2px 0 0;
     border-radius: 0 10px 0 0;
     border-color: black;
     border-style: solid;
     padding: 10px 10px 0 0;
     margin: 20px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -762,10 +734,8 @@ footer .media a i{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     border-bottom: 1px solid gray;
     padding-bottom: 15px;
-
 }
 
 .schedule .container-schedule .dateflag .date {
@@ -799,7 +769,6 @@ footer .media a i{
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 0 15px 0;
-
     border-bottom: 1px solid gray;
 }
 
@@ -837,7 +806,6 @@ footer .media a i{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-
     width: 90%;
 }
 
@@ -860,7 +828,6 @@ footer .media a i{
     width: 349px;
     height: auto;
     margin: 10px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -882,7 +849,6 @@ footer .media a i{
     border-color: gray;
     border-style: solid;
     margin-top: 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -963,7 +929,6 @@ footer .media a i{
     padding: 4px 4px 0 0;
     margin-top: 30px;
     margin-bottom: 40px;
-
     width: 90%;
 }
 
@@ -1058,6 +1023,7 @@ body {
     font-family: "Bakbak One", sans-serif;
     font-style: normal;
 }
+
 p {
     margin: 0;
 }
