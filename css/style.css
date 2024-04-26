@@ -650,10 +650,49 @@ footer .media a i{
 /*!---- MEDIA QUERY TEAMS ----!*/
 @media screen and (max-width: 1080px) {
     .tarjeta {
+        width: 400px;
+        height: auto;
+    }
+    
+    .tarjeta .listing-items .team-info {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .tarjeta .listing-items .team-info .team-name {
+        font-weight: 10;
+        font-size: 20px;
+    }
+    
+    .tarjeta .listing-items .team-info .team-logo img{
+        width: 47.06px;
+        height: 47.06px;
+        margin-right: 20px;
+    }
+    
+    .tarjeta .listing-items .team-drivers {
+        width: 400px;
+    }
+    
+    .tarjeta .listing-items .team-drivers .driver {
+        width: 152.94px;
+    }
+
+    .tarjeta .listing-items .img-team-car {
+        height: 117.65px;
+    }
+    
+    .tarjeta .listing-items .img-team-car img{
+        width: 376.47px;
+        height: 111.65px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .tarjeta {
         width: 340px;
         height: auto;
         padding: 5px 5px 0 0;
-        margin: 10px;  
     }
     
     .tarjeta .listing-items .team-info {
