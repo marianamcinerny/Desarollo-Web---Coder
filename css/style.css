@@ -93,9 +93,9 @@ header img {
 
 
 
-/*----FOOTER----*/
+/*----FOOTER----#2b2b33     #15151ed6*/
 footer {
-    background-color: #15151ed6;
+    background-color: #2b2b33;
     margin-top: 50px;
     padding-top: 20px;
     display: flex;
@@ -114,10 +114,6 @@ footer {
 
 footer .media a i{
     font-size: 30px;
-    color: black;
-}
-
-footer .media a i:hover {
     color: white;
 }
 
@@ -126,25 +122,32 @@ footer .media a i:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 10px;
+    margin: 0 10px 0 10px;
 }
 
 .f1 p {
     color: white;
-    margin: 0 10px 10px 0;
 }
 
 .f1 img {
-    width: 140px;
-    height: 70px;
+    /* esto es con el logo rojowidth: 140px;
+    height: 70px;*/
+    width: 120px;
+    height: 30px;
 }
 
 
 
 /*!---- MEDIA QUERY FOOTER ----!*/
 @media screen and (max-width: 790px) {
+    footer .media a i{
+        font-size: 20px;
+    }
+
     .f1 img {
-        width: 120px;
-        height: 60px;
+        width: 100px;
+        height: 20px;
     }
 
     .f1 p {
@@ -165,7 +168,7 @@ footer .media a i:hover {
 
     .f1 img{
         width: 80px;
-        height: 40px;
+        height: 20px;
     }
 
     footer .media a i {
