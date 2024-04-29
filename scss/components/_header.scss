@@ -19,6 +19,7 @@ header {
                     font-weight: 30;
                     font-size: 20px;
                     margin-right: 20px;
+                    transition: 0.5s;
                     &:hover {
                         color: nth($colors,3);
                     }
