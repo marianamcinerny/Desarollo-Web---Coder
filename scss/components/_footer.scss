@@ -1,0 +1,29 @@
+footer {
+    background-color: #2b2b33;
+    margin-top: 50px;
+    padding-top: 20px;
+    @include flex (flex, unset, unset, column, unset);
+    .media {
+        @include flex (flex, center, unset, row, unset);
+        a {
+            margin: 15px;
+            i {
+                font-size: 25px;
+                color: white;
+            }
+        }
+    }
+    .f1 {
+        @include flex (flex, space-between, flex-end, row, unset);
+        padding-bottom: 10px;
+        margin: 0 10px 0 10px;
+        img {
+            width: 100px;
+            height: 20px;
+        }
+        p {
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
