@@ -73,6 +73,9 @@ header {
         header .navbar .container-fluid .navbar-collapse a:hover {
           color: black; }
 
+html {
+  scroll-behavior: smooth; }
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner.jpeg);
   width: 100%;
@@ -323,7 +326,11 @@ header {
       align-items: flex-end;
       flex-direction: unset;
       flex-wrap: unset;
-      height: 160px; }
+      height: auto;
+      margin-top: 10px;
+      background-image: url(../img/pattern.png);
+      background-size: 8px;
+      background-repeat: repeat; }
       .equipos .tarjeta .listing-items .img-team-car img {
         width: 435px;
         height: 129px; }
@@ -396,7 +403,10 @@ header {
       background-size: 8px; }
       .schedule .container-schedule .img-circuit img {
         width: 144px;
-        height: 108px; }
+        height: 108px;
+        transition: 1s; }
+        .schedule .container-schedule .img-circuit img:hover {
+          transform: scale(1.1); }
 
 .logoshop ul {
   display: flex;
@@ -726,4 +736,4 @@ footer {
 @media screen and (max-width: 375px) {
   .hero h2 {
     font-weight: 30;
-    font-size: 18px; } }
+    font-size: 19px; } }
