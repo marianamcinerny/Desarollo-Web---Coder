@@ -309,6 +309,10 @@ html {
         img {
             width: 70px;
             height: 70px;
+            transition: 1s;
+            &:hover {
+                transform: scale(1.5);
+            }
         }
     }
 }
@@ -330,7 +334,6 @@ html {
                 transition: 1s;
                 @include flex (flex, unset, center, column, unset);
                 &:hover {
-                    transform: scale(1.1);
                     box-shadow: 10px 10px 138px 17px rgba(0,0,0,0.28);
                     -webkit-box-shadow: 10px 10px 138px 17px rgba(0,0,0,0.28);
                     -moz-box-shadow: 10px 10px 138px 17px rgba(0,0,0,0.28);

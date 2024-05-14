@@ -418,7 +418,10 @@ html {
   width: 90%; }
   .logoshop ul img {
     width: 70px;
-    height: 70px; }
+    height: 70px;
+    transition: 1s; }
+    .logoshop ul img:hover {
+      transform: scale(1.5); }
 
 .products section {
   display: flex;
@@ -448,7 +451,6 @@ html {
       flex-direction: column;
       flex-wrap: unset; }
       .products section .card .product:hover {
-        transform: scale(1.1);
         box-shadow: 10px 10px 138px 17px rgba(0, 0, 0, 0.28);
         -webkit-box-shadow: 10px 10px 138px 17px rgba(0, 0, 0, 0.28);
         -moz-box-shadow: 10px 10px 138px 17px rgba(0, 0, 0, 0.28); }
